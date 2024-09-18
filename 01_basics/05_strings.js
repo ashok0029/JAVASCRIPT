@@ -31,18 +31,26 @@
 
 // more methods like substring, slice and many more you can read throw documentation.
 
-const newGame = new String('ashok-bishn-oi')
+const newGame = new String('ashokbishnoi')
 console.log(newGame);
 const newString = newGame.substring(0,5)
 console.log(newString);
 const anotherString = newGame.slice(-13,7)
 console.log(anotherString);
+
+const newStringOne = "   hello   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://ashoka.com/ashok%20bishnoi"
+
+console.log(url.replace('%20','-'));
+
+
+
 const anotherNewString = newGame.split('-',3)
 console.log(anotherNewString);
+console.log(anotherNewString.length);
 
-
-
-
-
-
-
+// more content regarding string --> string method mdn
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
