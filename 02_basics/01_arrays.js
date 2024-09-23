@@ -2,32 +2,32 @@
 
 //  Declare an array
 const myArr = [0,1,2,3,4,5]
-// const myHeros = ["shakiman", "naagraj"]
+const myHeros = ["shakiman", "naagraj"]
 
-// const myArr2 = new Array(1,2,3,4)
-// console.log(myArr[2]);
-// console.log(myHeros[1]);
-// console.log(myArr2[2]);
+const myArr2 = new Array(1,2,3,4)
+console.log(myArr[2]);
+console.log(myHeros[1]);
+console.log(myArr2[2]);
 
 
 // Array methods
 
-// myArr.push(6)
-// myArr.push(7)
-// myArr.pop()
+myArr.push(6)
+myArr.push(7)
+myArr.pop()
 
-// myArr.unshift(9) // it adds the given value at the starting of the array
-// myArr.shift() // same like pop but from index 0.
+myArr.unshift(9) // it adds the given value at the starting of the array
+myArr.shift() // same like pop but from index 0.
 
-// console.log(myArr.includes(9)); // true--if value exits and false--if vaue doesn't exits in array
-// console.log(myArr.indexOf(3)); // if the given value doesn't exits in array it returns -1.
+console.log(myArr.includes(9)); // true--if value exits and false--if vaue doesn't exits in array
+console.log(myArr.indexOf(3)); // if the given value doesn't exits in array it returns -1.
 
 
-// const newArr = myArr.join() //Adds all the elements of an array into a string, separated by the specified separator string.
+const newArr = myArr.join() //Adds all the elements of an array into a string, separated by the specified separator string.
 
-// console.log(myArr);
-// console.log(newArr);
-// console.log(typeof(newArr));
+console.log(myArr);
+console.log(newArr);
+console.log(typeof(newArr));
 
 // slice, splice
 
