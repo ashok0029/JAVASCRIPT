@@ -2,7 +2,10 @@ let score = "33"
 
 console.log(typeof score);
 console.log(typeof(score));
+// we can write in both avove ways.
 
+
+//convert string number --> we use Number(variableName);
 let valueInNumber = Number(score)
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
@@ -11,6 +14,7 @@ console.log(valueInNumber);
 // "33abc" => NaN
 // true=> 1; false=> 0;
 // "Ashok" => NaN
+// null => 0;
 
 let isLoggedIn = 1;
 
@@ -27,6 +31,11 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+//33 --> 33
+// 3+2+"4" --> 54
+// 3+2+4 --> 9
+// "3"+2+4 --> 324
+
 
 
 // ********** Operations ***********
@@ -55,6 +64,8 @@ console.log(1+ 2 + "2");
 
 console.log(+true);
 console.log(+"");
+//The + operator is often used to convert values (like booleans or strings) into numbers when needed.
+
 
 // let num1, num2, num3
 
